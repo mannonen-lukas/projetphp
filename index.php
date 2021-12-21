@@ -1,5 +1,5 @@
 <?php 
-require('source.php');
+require('assets/lib/source.php');
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
@@ -11,8 +11,8 @@ require('source.php');
 </head>
 <body>
 <?php
-    renderMenu($menu);
-    renderPage($content);
+    echo renderMenu($menu);
+    echo renderPage($content);
 ?>
 </body>
 </html>
