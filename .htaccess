@@ -1,0 +1,4 @@
+Options FollowSymLinks
+RewriteEngine on 
+RewriteEngine on
+RewriteRule ([^.]+)\.html$ /$1.html.cache [L] 
