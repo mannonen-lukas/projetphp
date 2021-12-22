@@ -1,13 +1,25 @@
 <?php
     /**
-     * Génère le menu de la nav
+     * Génère le menu de la nav en forma mobile
      */
-    function renderMenu(array $menu)
+    function menuMobil(array $menu)
     { 
         $nav = '';// création de la variable nav vide 
         foreach ($menu as $subMenu) {
             //A ma variable tu concatènes le menu
-            $nav .= '<a href="?page=' . $subMenu[0] . '">' . $subMenu[1] . '</a> ';
+            $nav .= '<a class="dropdown-item" href="?page=' . $subMenu[0] . '">' . $subMenu[1] . '</a>';
+        }
+        return $nav;
+    }
+    /**
+     * Génère le menu de la nav en forma web
+     */
+    function menuWeb(array $menu)
+    { 
+        $nav = '';// création de la variable nav vide 
+        foreach ($menu as $subMenu) {
+            //A ma variable tu concatènes le menu
+            $nav .= '<a class="navButton" href="?page=' . $subMenu[0] . '">' . $subMenu[1] . '</a>';
         }
         return $nav;
     }
