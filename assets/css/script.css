@@ -1,7 +1,7 @@
 .myBody{
-    padding: 60px;
+    padding: 30px;
     padding-bottom: 60px;
-    background-color: rgb(37, 36, 36);
+    background-color: rgb(61, 60, 60);
     color: lavender;
 
 }
@@ -13,13 +13,14 @@ footer{
     padding: 8px;
     color: rgb(250, 250, 250);
     font-size: 15px;
+    text-align: center;
 }
-img{
+.imgGal{
     border-radius: 30px;
-    box-shadow: 3px 5px 3px rgba(230, 230, 250, 0.671);
+    box-shadow: 3px 5px 3px rgba(210, 105, 30, 0.671);
 }
 .myNav {
-    background-color: #ff8400;
+    background-color: #ffffff;
     width: 100%;
     height: 80px;
 }
@@ -27,14 +28,31 @@ img{
     text-decoration-color: black;
 }
 .navButton {
-    background-color: #ff8400;
+    background-color: #fcfbf9;
     border-style: none;
-    margin: 20px;
-    font-size: 19px;
-    color: #ffffff;
+    margin: 30px;
+    font-size: 23px;
+    color: rgb(210, 105, 30);
 }
 .iBars {
     color: #000000;
     font-size: 50px;
+}
+h1{
+    text-align: center;
+    padding: 40px;
+    color: rgb(210, 105, 30);
+    text-shadow: 5px 5px 5px rgba(210, 105, 30, 0.712);
+}
+h2{
+    padding: 20px;
+    color: rgb(210, 105, 30);
+}
+.quote{
+    background-color: rgba(230, 230, 250, 0.842);
+    color: rgb(143, 91, 7);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
 }
 
