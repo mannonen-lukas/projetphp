@@ -1,3 +1,6 @@
+<?php 
+require('assets/lib/source.php');
+?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 
@@ -44,6 +47,10 @@
         </nav>
     </header>
 
+<?php
+    echo renderMenu($menu);
+    echo renderPage($content);
+?>
 </body>
 
 </html>
