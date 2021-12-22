@@ -19,7 +19,7 @@ require('assets/lib/source.php');
         <nav class="myNav">
             <div class="row">
                 <div class="col m-1">
-                    <img src="/projetphp/assets/img/logo.png" alt="Logo" width="80px">
+                    <img src="assets/img/logo.png" alt="Logo" width="80px">
                 </div>
                 <!--Menu mobile-->
                 <div class="col-2 dropdown d-block d-md-block d-lg-block d-xl-none d-xxl-none">
