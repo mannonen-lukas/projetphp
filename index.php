@@ -15,7 +15,7 @@
 <body>
     <header>
         <nav class="myNav">
-            <div class="row">
+            <div class="container row">
                 <div class="col m-1">
                     <img src="assets/img/logo.png" alt="Logo" width="80px">
                 </div>
